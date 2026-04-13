@@ -64,7 +64,6 @@ public class DAOTest {
         } catch (SQLException e) {
             System.err.println("Search failed: " + e.getMessage());
         }
-
         // ---- Close connection ----
         DatabaseConnection.closeConnection();
     }
