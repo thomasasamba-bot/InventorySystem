@@ -116,6 +116,6 @@ public abstract class Product {
     @Override
     public String toString() {
         return String.format("Product[id=%d, name=%s, category=%s, qty=%d, price=%.2f]",
-                id, name, category, quantity, price);
+                id, name, category, quantity, price );   
     }
 }
